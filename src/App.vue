@@ -1,16 +1,18 @@
 <template>
   <div>
-
+   
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style lang="less">
-
+<style lang="less" scoped>
+.box{
+  width: 200px;
+  height: 100px;
+  background-color: red;
+}
 </style>
